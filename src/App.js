@@ -2,13 +2,17 @@ import { MemoryRouter as Router, Routes, Route } from "react-router-dom";
 import { PagesRoute } from "./routes";
 import { Link } from "react-router-dom";
 
+import BottomAppBar from "./components/bottomnav";
+
+
+
 function App() {
   return (
     <div className="App">
       <Router initialEntries={['/']} initialIndex={0}>
       <div className="">
-        <nav className="flex justify-center border-2 border-blue-600 w-full">
-          <ul className="flex justify-around space-x-10 min-w-[300px] max-w-[400px]">
+        <nav className="flex justify-center  border-blue-600 w-full ">
+          <ul className="flex justify-around space-x-20 ">
             <li>
               <Link to="/">Home</Link>
             </li>
@@ -19,10 +23,15 @@ function App() {
         </nav>
 
         <hr />
-        <div className="flex justify-center mt-3">
-        <PagesRoute />
+        <div className="border-2 h-[400px] w-[400px] ml-auto mr-auto overflow-auto scrollbar-thin scrollbar-thumb-blue-400 scrollbar-track-gray-100">
+          <div className="content-center text-center">
+            
+              <PagesRoute />
+          </div>
         </div>
         </div>
+        
+        <BottomAppBar />
       </Router>
     </div>
   );
