@@ -13,8 +13,6 @@ function LoginRoute(){
 export function PagesRoute() {
   return (
     <div>
-
-      
       <Routes >
         <Route exact path="/" element={<MainHome />} />
         <Route path="/login" element={<LoginRoute />} />
