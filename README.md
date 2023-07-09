@@ -1,1 +1,3 @@
 6Link is a powerful productivity tool that simplifies your browsing experience. With 6Link Extension, you can quickly save your favorite links and access them later from anywhere. It allows you to organize your bookmarks with tags, making it easy to find the links you need. You can also customize the appearance of the extension to match your preferences. 6Link Extension offers a seamless experience and helps you boost your productivity.
+
+<img src='https://raw.githubusercontent.com/x3sammy/chrome-extension/main/public/Screenshot%20from%202023-07-09%2014-16-39.png' title='extension screenshot'/> <img src='https://raw.githubusercontent.com/x3sammy/chrome-extension/main/public/Screenshot%20from%202023-07-09%2014-18-50.png'/>
